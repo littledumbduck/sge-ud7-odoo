@@ -1,0 +1,5 @@
+# Carpeta de módulos personalizados montada por docker-compose
+addons/
+
+# Variables de entorno locales
+.env

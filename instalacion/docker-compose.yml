@@ -1,0 +1,31 @@
+services:
+  db:
+    image: postgres:16
+    container_name: odoo-db
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: postgres
+      POSTGRES_USER: odoo
+      POSTGRES_PASSWORD: odoo          # Cámbiala por una contraseña segura
+    volumes:
+      - odoo-db-data:/var/lib/postgresql/data
+
+  odoo:
+    image: odoo:19.0                   # Cambia la versión si quieres otra (p. ej. 18.0)
+    container_name: odoo-web
+    restart: unless-stopped
+    depends_on:
+      - db
+    ports:
+      - "8069:8069"
+    environment:
+      HOST: db
+      USER: odoo
+      PASSWORD: odoo                   # Debe coincidir con POSTGRES_PASSWORD
+    volumes:
+      - odoo-web-data:/var/lib/odoo    # Ficheros adjuntos y sesiones
+      - ./addons:/mnt/extra-addons     # Tus módulos personalizados
+
+volumes:
+  odoo-db-data:
+  odoo-web-data:
