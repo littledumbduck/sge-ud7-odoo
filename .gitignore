@@ -3,3 +3,6 @@ addons/
 
 # Variables de entorno locales
 .env
+
+# Credenciales: nunca se suben al repositorio
+credenciales/
