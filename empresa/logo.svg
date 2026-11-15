@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 200" width="540" height="200" role="img" aria-label="Panadería Pancracio">
+  <title>Panadería Pancracio</title>
+  <!-- Emblema -->
+  <g transform="translate(100 100)">
+    <circle r="88" fill="#5e4766"/>
+    <circle r="78" fill="none" stroke="#f3e6cf" stroke-width="2" stroke-dasharray="3 6"/>
+    <!-- Hogaza -->
+    <path d="M-58 22 C-60 -22 -30 -46 0 -46 C30 -46 60 -22 58 22 C58 32 50 36 40 36 L-40 36 C-50 36 -58 32 -58 22 Z" fill="#e0a95f"/>
+    <path d="M-58 22 C-58 32 -50 36 -40 36 L40 36 C50 36 58 32 58 22 C40 28 -40 28 -58 22 Z" fill="#b97a35"/>
+    <!-- Cortes del pan -->
+    <g fill="none" stroke="#f6dcae" stroke-width="6" stroke-linecap="round">
+      <path d="M-34 -6 C-28 -20 -18 -28 -8 -30"/>
+      <path d="M-14 4 C-8 -12 4 -22 16 -24"/>
+      <path d="M8 12 C14 -2 26 -12 38 -12"/>
+    </g>
+    <!-- Espiga -->
+    <g fill="#f3e6cf">
+      <ellipse cx="0" cy="-66" rx="5" ry="9"/>
+      <ellipse cx="-9" cy="-58" rx="4" ry="8" transform="rotate(-35 -9 -58)"/>
+      <ellipse cx="9" cy="-58" rx="4" ry="8" transform="rotate(35 9 -58)"/>
+    </g>
+    <text y="66" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="13" letter-spacing="3" fill="#f3e6cf">SEVILLA</text>
+  </g>
+  <!-- Nombre -->
+  <text x="212" y="92" font-family="Georgia, 'Times New Roman', serif" font-size="30" letter-spacing="6" fill="#010101">PANADERÍA</text>
+  <text x="208" y="146" font-family="Georgia, 'Times New Roman', serif" font-size="58" font-weight="700" fill="#5e4766">Pancracio</text>
+  <line x1="212" y1="166" x2="500" y2="166" stroke="#5e4766" stroke-width="2"/>
+  <text x="212" y="188" font-family="Georgia, 'Times New Roman', serif" font-size="14" font-style="italic" letter-spacing="1" fill="#010101">Pan de masa madre · Pastelería · Catering</text>
+</svg>
