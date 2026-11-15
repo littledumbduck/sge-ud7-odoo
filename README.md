@@ -6,7 +6,7 @@
 
 ## Vídeo
 
-_Pendiente de grabar y subir a YouTube._
+[_Vídeo de youtube_](https://www.youtube.com/watch?v=_cyloK551cU)
 
 ## Índice
 
