@@ -9,8 +9,13 @@
 | Nombre | Panadería Pancracio |
 | Sector | Panadería y pastelería artesanal, con servicio de catering |
 | NIF (ficticio) | ESA19283746 |
-| Dirección | Avenida del pan 12, Sevilla |
+| Eslogan | Pan de masa madre · Pastelería · Catering |
+| Dirección | Avenida del pan 12, 41001 Sevilla |
+| Teléfono (ficticio) | 666 123 456 |
+| Correo | info@pancracio.com |
 | Web | http://www.pancracio.com |
+| Logo | [logo.svg](logo.svg) · [logo.png](logo.png) |
+| Colores corporativos | `#5e4766` (morado) y `#010101` (negro) |
 | Almacén en Odoo | Obrador Pancracio (código `WH`) |
 
 ## Actividad
